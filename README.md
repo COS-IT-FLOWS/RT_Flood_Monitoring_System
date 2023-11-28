@@ -1,12 +1,10 @@
-# Climatewatch
+#Real Time Flood Monitoring System
 
-A weather monitoring web application built on the plotly-dash analytics framework. It leverages data from multiple sources to provide a hyperlocal narrative at the river basin level on the climate situation in India, with the current focus being on the southern region, particularly the western ghats.
+A flood monitoring web application built on the plotly-dash analytics framework. It leverages data from multiple sources to provide a hyperlocal narrative at the river basin level on the climate situation in India, with the current focus being on the southern region, particularly the western ghats.
 
 The data for the same are being collected from both governmental sources and our own burgeoning community data network.
 
-The web application can be accessed via https://weather.equinoct.com.
-
-### As of now, climatewatch consists of 5 modules:
+### As of now, climatewatch consists of 3 modules:
 + ### Rainwatch
   Consists of precipitation data from multiple sources
   a. Indian Meteorological Department (IMD) - Precipitation
@@ -21,9 +19,4 @@ The web application can be accessed via https://weather.equinoct.com.
 + ### Tidalwatch
   a. Autonomous Tidal Gauge Station, Kumbalangi, Kerala - Tidal Level, Ambient & Water Temperature, pH, Salinity Data
   b. Community Data Gatherer Network - Tidal Level
-+ ### Heatwatch
-  a. Indian Meteorological Department (IMD) All Weather Stations - Temperature 
-+ ### Hazardwatch
-  a. Brahmapuram Waste Management Plant Fire Impact Analysis - Data from Residents of Kochi via Online Survey(Google Forms)
-
 
