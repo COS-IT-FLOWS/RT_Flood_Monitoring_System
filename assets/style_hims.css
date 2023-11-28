@@ -1,0 +1,71 @@
+#main-container-hims {
+    width : 100%;
+    height : 100vh;
+    margin : auto;
+    display : block;
+}
+
+#hims-plot-div {
+    position: relative;
+    background: #ffffff;
+}
+
+#map-pane-hims {
+    width : 100%;
+    height : 100vh;
+    margin : auto;
+    display : block;
+}
+
+td {
+    font-size: 1.55rem;
+}
+
+#dashboard {
+    padding: 20px;
+}
+
+.dash-card {
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background: #ffffff;
+}
+
+.home-card {
+    display: flex;
+    padding: 10px;
+}
+
+.home-card > * {
+    display: flex;
+    flex-direction: column;
+    justify-items: space-between;
+}
+
+
+
+.row {
+    margin: 20px;
+}
+
+.row1 {
+    height: 22rem;
+}
+
+.row2 {
+    height: 28rem;
+    background: '#ffffff';
+}
+
+#plot-div {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    background: '#ffffff';
+    border-radius: 50;
+}
+
+#hims-plot {
+    height: 100%;
+}
