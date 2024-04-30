@@ -28,7 +28,7 @@ def test_generate_dashboard_rfms():
     col1 = row1.children[0]
     assert isinstance(col1.children, dbc.Card)
     assert isinstance(col1.children.children[0], dbc.CardBody)
-    # assert isinstance(col1.children.children.children[0], html.Img)
+    assert isinstance(col1.children.children.children[0], html.Img)
 
     # Assert that the second column has the correct structure
     col2 = row1.children[1]
@@ -45,13 +45,13 @@ def test_generate_dashboard_rfms():
     col3 = row2.children[0]
     assert isinstance(col3.children[0], dbc.Card)
     assert isinstance(col3.children[0].children, html.Div)
-    # assert isinstance(col3.children[0].children.children, dcc.Graph)
+    assert isinstance(col3.children[0].children.children, dcc.Graph)
 
     # Assert that the second column of the second row has the correct structure
     col4 = row2.children[1]
     assert isinstance(col4.children[0], dbc.Card)
     assert isinstance(col4.children[0].children, html.Div)
-    # assert isinstance(col4.children.children.children, dcc.Graph)
+    assert isinstance(col4.children.children.children, dcc.Graph)
 
     # Clean up
-    # app.server.ki()
+    # app.server.stop()
