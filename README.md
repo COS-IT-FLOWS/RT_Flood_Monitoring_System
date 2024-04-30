@@ -3,7 +3,7 @@
 | RT_Flood_Monitoring_System Links & Badges              |                                                                             |
 |------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | License                | [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/UW-Hydro/VIC/master/LICENSE.txt)                                                              |
-| Unit Testing           | [!Code Coverage](https://img.shields.io/badge/Code%20Coverage-81%25-success?style=flat)  |
+| Unit Testing           | [![Code Coverage](https://img.shields.io/badge/Code%20Coverage-81%25-success?style=flat)  |
 <!-- | Current Release DOI    | [![DOI](https://zenodo.org/badge/7766/UW-Hydro/VIC.svg)](https://zenodo.org/badge/latestdoi/7766/UW-Hydro/VIC) | -->
 
 ----------
